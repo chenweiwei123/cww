@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.cww.pojo.Music;
 import com.cww.service.MusicService;
-@Controller()
+@Controller
 @RequestMapping("/music")
 public class MusicController {
 	@Autowired
