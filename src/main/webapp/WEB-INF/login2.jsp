@@ -103,19 +103,38 @@
 			</h2>
 			<section>
 			<ul>
+			<li>
+					<dl>
+						<dt>
+							<i class="icon-table"></i>用心旅游<i class="icon-angle-right"></i>
+						</dt>
+						<dd>
+							<a href="weather1.jsp">旅游天气</a>
+						</dd>
+						<dd>
+							<a href="weather2.jsp">乡土情怀</a>
+						</dd>
+						<dd>
+							<a href="weather3.jsp">好友圈</a>
+						</dd>
+						<dd>
+							<a href="weather4.jsp">编译旅图</a>
+						</dd>
+					</dl>
+				</li>
 				<li>
 					<dl>
 						<dt>
-							<i class="icon-columns"></i>来嗨音乐总部<i class="icon-angle-right"></i>
+							<i class="icon-columns"></i>来嗨音乐馆<i class="icon-angle-right"></i>
 						</dt>
 						<dd>
-							<a href="flex-layout.html">Fashion Music</a>
+							<a href="music1.jsp">Fashion Music</a>
 						</dd>
 						<dd>
-							<a href="flow-layout.html">收藏 Music</a>
+							<a href="music2.jsp">推荐好听 Music</a>
 						</dd>
 						<dd>
-							<a href="flow-layout.html">推荐好听 Music</a>
+							<a href="music3.jsp">owner Music</a>
 						</dd>
 					</dl>
 				</li>
@@ -125,44 +144,43 @@
 							<i class="icon-inbox"></i>备忘录<i class="icon-angle-right"></i>
 						</dt>
 						<dd>
-							<a href="button.html">Owner Memorandum</a>
+							<a href="beiwang1.jsp">Owner Memorandum</a>
 						</dd>
 						<dd>
-							<a href="button.html">Record Memorandum</a>
+							<a href="beiwang2.jsp">Record Memorandum</a>
 						</dd>
 					</dl>
 				</li>
-				<li>
-					<dl>
-						<dt>
-							<i class="icon-table"></i>用心旅游<i class="icon-angle-right"></i>
-						</dt>
-						<dd>
-							<a href="table.html">天气情况</a>
-						</dd>
-						<dd>
-							<a href="table.html">乡土情怀</a>
-						</dd>
-						<dd>
-							<a href="table.html">好友圈</a>
-						</dd>
-						<dd>
-							<a href="table.html">上传旅图</a>
-						</dd>
-					</dl>
-				</li>
+				
 				<li>
 					<dl>
 						<dt>
 							<i class="icon-list-alt"></i>好友<i class="icon-angle-right"></i>
 						</dt>
 						<dd>
-						<a href="form.html">所有好友</a>
+						<a href="friend1.jsp">所有好友</a>
 					</dd>
 						<dd>
-							<a href="form.html">关注好友</a><!--推荐关注度高的-->
+							<a href="friend2.jsp">关注好友</a><!--推荐关注度高的-->
 						</dd>
-
+					</dl>
+				</li>
+				
+				<li>
+					<dl>
+						<dt>
+							<i class="icon-list-alt"></i>娱乐<i class="icon-angle-right"></i>
+						</dt>
+						<dd>
+							<a href="news1.jsp">国家大事</a><!--推荐关注度高的-->
+						</dd>
+						<dd>
+						<a href="news2.jsp">搞笑段子</a>
+					</dd>
+							<dd>
+							<a href="news3.jsp">青烟小说</a><!--推荐关注度高的-->
+						</dd>
+					
 					</dl>
 				</li>
 			</ul>

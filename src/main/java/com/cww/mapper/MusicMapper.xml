@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cww.mapper.MusicMapper">
+<resultMap type="com.cww.pojo.Music" id="musicMap">
+	<result column="id" jdbcType="INTEGER" property="id"/>
+	<result column="image" jdbcType="VARCHAR" property="images"/>
+	<result column="location" jdbcType="VARCHAR" property="location"/>
+	<result column="name" jdbcType="INTEGER" property="id"/>
+	<result column="follow" jdbcType="INTEGER" property="id"/>
+	<association property="singer" column="singer"  resultMap="singerMap"></association>
+</resultMap>
+<resultMap type="com.cww.pojo.Singer" id="singerMap">
+	<result column="id" jdbcType="INTEGER" property="id"/>
+	<result column="follows" jdbcType="INTEGER" property="follow"/>
+	<result column="location" jdbcType="VARCHAR" property="location"/>
+	<result column="name" jdbcType="VARCHAR" property="name"/>
+	<result column="sex" jdbcType="INTEGER" property="sex"/>
+</resultMap>
+    <select id="findAllMusic"  resultMap="musicMap" parameterType="int" >
+   
+    SELECT a.id,a.name,a.location,a.follow,a.image,s.id,s.location,s.follows,s.name,s.sex FROM music a join single s  on a.singer=s.id
+    <if test="start !=null and step !=null" >
+    limit ${start},${step}
+    </if>
+    </select>
+</mapper>

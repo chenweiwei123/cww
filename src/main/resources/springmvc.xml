@@ -35,6 +35,7 @@
       <mvc:resources location="/WEB-INF/static/2/vendor/" mapping="/2/vendor/**"/>
       <mvc:resources location="/WEB-INF/static/2/bootstrap/" mapping="/2/bootstrap/**"/>
       <mvc:resources location="/WEB-INF/static/2/vendor/" mapping="/2/vendor/**"/>
+ <mvc:resources location="/WEB-INF/static/music/" mapping="/music/**"/>
       <!-- 上传文件 -->
     <bean  id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">    
     <property name="defaultEncoding" value="utf-8"/>    
