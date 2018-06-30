@@ -7,187 +7,90 @@
 <head>
 <meta charset="utf-8"/>
 <title>音乐大厅</title>
-<meta name="keywords"  content="设置关键词..." />
-<meta name="description" content="设置描述..." />
-<meta name="author" content="DeathGhost" />
-<meta name="renderer" content="webkit">
-<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="keywords"  content="设置关键词..." />
+	<meta name="description" content="设置描述..." />
+	<meta name="author" content="DeathGhost" />
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 
-	    <script type="text/javascript">
-	        //<![CDATA[
-	        try {
-	            if (!window.CloudFlare) {
-	                var CloudFlare = [{
-	                    verbose: 0,
-	                    p: 0,
-	                    byc: 0,
-	                    owlid: "cf",
-	                    bag2: 1,
-	                    mirage2: 0,
-	                    oracle: 0,
-	                    paths: {
-	                        cloudflare: "/cdn-cgi/nexp/dok2v=1613a3a185/"
-	                    },
-	                    atok: "1668c19642567e08c574f5d9458345a2",
-	                    petok: "3285f1db20753df31d6fcdae6015a30e5a60a785-1419101748-1800",
-	                    zone: "nyasha.me",
-	                    rocket: "0",
-	                    apps: {
-	                        "ga_key": {
-	                            "ua": "UA-50530436-1",
-	                            "ga_bs": "2"
-	                        }
-	                    }
-	                }];
-	                CloudFlare.push({
-	                    "apps": {
-	                        "ape": "86d42e0b8c0027bb178361fce707fc15"
-	                    }
-	                });
-	                ! function(a, b) {
-	                    a = document.createElement("script"), b = document.getElementsByTagName("script")[0], a.async = !0, a.src = "js/cloudflare.min.js", b.parentNode.insertBefore(a, b)
-	                }()
-	            }
-	        } catch (e) {};
-	        //]]>
-	    </script>
-<link rel="icon" href="${cww}/1/images/icon/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="${cww}/1/css/style.css" />
-<script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/jquery.js"></script>
-<script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/plug-ins/customScrollbar.min.js"></script>
-<script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/plug-ins/echarts.min.js"></script>
-<script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/plug-ins/layerUi/layer.js"></script>
-<script type="text/javascript" charset="utf-8"  src="${cww}/1/editor/ueditor.config.js"></script>
-<script type="text/javascript" charset="utf-8"  src="${cww}/1/editor/ueditor.all.js"></script>
-<script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/plug-ins/pagination.js"></script>
-<script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/public.js"></script>
+	<script type="text/javascript">
+        //<![CDATA[
+        try {
+            if (!window.CloudFlare) {
+                var CloudFlare = [{
+                    verbose: 0,
+                    p: 0,
+                    byc: 0,
+                    owlid: "cf",
+                    bag2: 1,
+                    mirage2: 0,
+                    oracle: 0,
+                    paths: {
+                        cloudflare: "/cdn-cgi/nexp/dok2v=1613a3a185/"
+                    },
+                    atok: "1668c19642567e08c574f5d9458345a2",
+                    petok: "3285f1db20753df31d6fcdae6015a30e5a60a785-1419101748-1800",
+                    zone: "nyasha.me",
+                    rocket: "0",
+                    apps: {
+                        "ga_key": {
+                            "ua": "UA-50530436-1",
+                            "ga_bs": "2"
+                        }
+                    }
+                }];
+                CloudFlare.push({
+                    "apps": {
+                        "ape": "86d42e0b8c0027bb178361fce707fc15"
+                    }
+                });
+                ! function(a, b) {
+                    a = document.createElement("script"), b = document.getElementsByTagName("script")[0], a.async = !0, a.src = "${cww}/2/js/cloudflare.min.js", b.parentNode.insertBefore(a, b)
+                }()
+            }
+        } catch (e) {};
+        //]]>
+	</script>
+	<link rel="icon" href="${cww}/1/images/icon/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="${cww}/1/css/style.css" />
+	<script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/jquery.js"></script>
+	<script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/plug-ins/customScrollbar.min.js"></script>
+	<script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/plug-ins/echarts.min.js"></script>
+	<script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/plug-ins/layerUi/layer.js"></script>
+	<script type="text/javascript" charset="utf-8"  src="${cww}/1/editor/ueditor.config.js"></script>
+	<script type="text/javascript" charset="utf-8"  src="${cww}/1/editor/ueditor.all.js"></script>
+	<script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/plug-ins/pagination.js"></script>
+	<script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/public.js"></script>
 
 
-	    <link rel="stylesheet" href="${cww}/2/vendor/offline/theme.css">
-	    <link rel="stylesheet" href="${cww}/2/vendor/pace/theme.css">
-	    <link rel="stylesheet" href="${cww}/2/vendor/jvectormap/jquery-jvectormap-1.2.2.css">
-	    <link rel="stylesheet" href="${cww}/2/vendor/bxslider/jquery.bxslider.css">
-	    <link rel="stylesheet" href="${cww}/2/bootstrap/css/bootstrap.min.css">
-	    <link rel="stylesheet" href="${cww}/2/css/font-awesome.min.css">
-	    <link rel="stylesheet" href="${cww}/2/css/animate.min.css">
-	    <link rel="stylesheet" href="${cww}/2/css/panel.css">
-	    <link rel="stylesheet" href="${cww}/2/css/skins/palette.1.css" id="skin">
-	    <link rel="stylesheet" href="${cww}/2/css/fonts/style.1.css" id="font">
-	    <link rel="stylesheet" href="${cww}/2/css/main.css">
-	
-	
-	    <!--[if lt IE 9]>
-	        <script src="js/html5shiv.js"></script>
-	        <script src="js/respond.min.js"></script>
-	    <![endif]-->
-	
-	    <script src="${cww}/2/vendor/modernizr.js"></script>
+	<link rel="stylesheet" href="${cww}/2/vendor/offline/theme.css">
+	<link rel="stylesheet" href="${cww}/2/vendor/pace/theme.css">
+	<link rel="stylesheet" href="${cww}/2/vendor/jvectormap/jquery-jvectormap-1.2.2.css">
+	<link rel="stylesheet" href="${cww}/2/vendor/bxslider/jquery.bxslider.css">
+	<link rel="stylesheet" href="${cww}/2/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="${cww}/2/css/font-awesome.min.css">
+	<link rel="stylesheet" href="${cww}/2/css/animate.min.css">
+	<link rel="stylesheet" href="${cww}/2/css/panel.css">
+	<link rel="stylesheet" href="${cww}/2/css/skins/palette.1.css" id="skin">
+	<link rel="stylesheet" href="${cww}/2/css/fonts/style.1.css" id="font">
+	<link rel="stylesheet" href="${cww}/2/css/main.css">
+
+
+	<!--[if lt IE 9]>
+	<script src="${cww}/2/js/html5shiv.js"></script>
+	<script src="${cww}/2/js/respond.min.js"></script>
+	<![endif]-->
+
+	<script src="${cww}/2/vendor/modernizr.js"></script>
+	<script>
+
+		window.onload
+	</script>
+
 </head>
 <body>
 <div class="main-wrap">
-	<div class="side-nav">
-		<div class="side-logo">
-			<div class="logo">
-				<span class="logo-ico">
-					<i class="i-l-1"></i>
-					<i class="i-l-2"></i>
-					<i class="i-l-3"></i>
-				</span>
-				<strong>后台管理切换</strong>
-			</div>
-		</div>
-		<!--  main-cont content mCustomScrollbar-->
-		<nav class="side-menu content  mCustomScrollbar" data-mcs-theme="minimal-dark" >
-			<h2>
-				<a href="${cww}/worker/info?phone=${worker.phone}" class="InitialPage"><i class="icon-dashboard"></i>基本信息</a>
-			</h2>
-			<section>
-			<ul>
-			<li>
-					<dl>
-						<dt>
-							<i class="icon-table"></i>用心旅游<i class="icon-angle-right"></i>
-						</dt>
-						<dd>
-							<a href="weather1.jsp">旅游天气</a>
-						</dd>
-						<dd>
-							<a href="weather2.jsp">乡土情怀</a>
-						</dd>
-						<dd>
-							<a href="weather3.jsp">好友圈</a>
-						</dd>
-						<dd>
-							<a href="weather4.jsp">编译旅图</a>
-						</dd>
-					</dl>
-				</li>
-				<li>
-					<dl>
-						<dt>
-							<i class="icon-columns"></i>来嗨音乐馆<i class="icon-angle-right"></i>
-						</dt>
-						<dd>
-							<a href="music1.jsp">Fashion Music</a>
-						</dd>
-						<dd>
-							<a href="music2.jsp">推荐好听 Music</a>
-						</dd>
-						<dd>
-							<a href="music3.jsp">owner Music</a>
-						</dd>
-					</dl>
-				</li>
-				<li>
-					<dl>
-						<dt>
-							<i class="icon-inbox"></i>备忘录<i class="icon-angle-right"></i>
-						</dt>
-						<dd>
-							<a href="beiwang1.jsp">Owner Memorandum</a>
-						</dd>
-						<dd>
-							<a href="beiwang2.jsp">Record Memorandum</a>
-						</dd>
-					</dl>
-				</li>
-				
-				<li>
-					<dl>
-						<dt>
-							<i class="icon-list-alt"></i>好友<i class="icon-angle-right"></i>
-						</dt>
-						<dd>
-						<a href="friend1.jsp">所有好友</a>
-					</dd>
-						<dd>
-							<a href="friend2.jsp">关注好友</a><!--推荐关注度高的-->
-						</dd>
-					</dl>
-				</li>
-				
-				<li>
-					<dl>
-						<dt>
-							<i class="icon-list-alt"></i>娱乐<i class="icon-angle-right"></i>
-						</dt>
-						<dd>
-							<a href="news1.jsp">国家大事</a><!--推荐关注度高的-->
-						</dd>
-						<dd>
-						<a href="news2.jsp">搞笑段子</a>
-					</dd>
-							<dd>
-							<a href="news3.jsp">青烟小说</a><!--推荐关注度高的-->
-						</dd>
-					
-					</dl>
-				</li>
-			</ul>
-			</section>
-		</nav>
-		</div>
-		<footer class="side-footer">© 陈大小姐 版权所有</footer>
+	<jsp:include page="same_body.jsp"/>
 	<div class="content-wrap">
 		<header class="top-hd">
 			<div class="hd-lt">
@@ -257,17 +160,22 @@
 				</table>
 				<!--开始::结束-->
 			</div>
-	  	</main>
+
+		 </main>
 	</div>
+</div>
 	<script type="text/javascript">
-	  $.ajax("/music/list", function(res){
-		if(res.status == 200){
-			
-		}else{
-			$.messager.alert('提示','亲，系统正在升级中，无法播放!');
+		$(f);
+		window.onload=function(){
+            $.ajax("${cww}/music/list", function(res){
+                if(res.status == 200){
+                    $.message.alert("提示","ok");
+                }else{
+                    $.message.alert("提示","亲，系统升级中");
+                }
+            })
 		}
-	  });
-}
+
 	</script>
 			<script>
 				//分页

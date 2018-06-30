@@ -26,6 +26,7 @@ public class MusicController {
 	@ResponseBody
 	public List<Music> getMusics(Integer start,Integer step){
 		List<Music> musics=new ArrayList<>();
+		musics=service.FindMusics(0,1);
 		return musics;
 	}
 	  /**

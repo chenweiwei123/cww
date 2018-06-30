@@ -3,7 +3,6 @@ package com.cww.controller;
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
-import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -13,6 +12,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import com.cww.pojo.Worker;
 import com.cww.service.WorkerService;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 @Controller
 @RequestMapping("/worker")
@@ -35,17 +37,22 @@ public class WorkerController {
       return "login2";
     }
     @RequestMapping(value="/info")
-    public String getInfo(@RequestParam("phone") Integer phone,ModelMap map) {
+    public String getInfo(@RequestParam("phone") Integer phone,ModelMap map, HttpServletRequest req) {
     	Worker worker = service.findWorker(phone);
     	if(worker == null ) return "login2";
-    	map.addAttribute("worker", worker);
+    	//map.addAttribute("worker", worker);
+		HttpSession session=req.getSession();
+		session.setAttribute("worker",worker);
     	return "info";
     }
     @RequestMapping(value="/registers", method=RequestMethod.POST)
-    public String  addRegister(Worker worker,ModelMap map,HttpServletRequest req){
+    public String  addRegister(Worker worker, ModelMap map, HttpServletRequest req){
+    	int num;
     	String path = "/OfficeXm/2/img/";
+    	HttpSession session=req.getSession();
     	//文件类型 application/java
     	if(worker.getFile() != null) {
+
     		String type=worker.getFile().getContentType();
     		System.out.println(type);
     		//获取后缀
@@ -61,7 +68,6 @@ public class WorkerController {
     		String defaultName="/OfficeXm/2/img/xiaoren.jpg";
     		worker.setImage(defaultName);
     	}
-        Integer num =0;
 		try {
 			num = service.addWorker(worker);
 		} catch (Exception e) {
@@ -70,7 +76,7 @@ public class WorkerController {
         if (num ==0){//添加失败
             return "404";
         }
-        map.addAttribute("worker",worker);
+		session.setAttribute("worker",worker);
         return "login2";
     }
     /**

@@ -2,9 +2,9 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
   <display-name>OfficeXm</display-name>
   <welcome-file-list>
-     <welcome-file>/WEB-INF/view/index.jsp</welcome-file>
-      <welcome-file>/WEB-INF/index.jsp</welcome-file>
-       <welcome-file>index.jsp</welcome-file>
+     <welcome-file>/WEB-INF/view/main.jsp</welcome-file>
+      <welcome-file>/WEB-INF/main.jsp</welcome-file>
+       <welcome-file>main.jsp</welcome-file>
   </welcome-file-list>
  <!-- 后端监听器配置 -->
   <listener>

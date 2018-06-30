@@ -128,7 +128,7 @@
 							<i class="icon-columns"></i>来嗨音乐馆<i class="icon-angle-right"></i>
 						</dt>
 						<dd>
-							<a href="music1.jsp">Fashion Music</a>
+							<a href="${cww}/music/music1">Fashion Music</a>
 						</dd>
 						<dd>
 							<a href="music2.jsp">推荐好听 Music</a>

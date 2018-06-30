@@ -30,7 +30,7 @@
       <mvc:resources location="/WEB-INF/static/2/js/" mapping="/2/js/**"/>
     <mvc:resources location="/WEB-INF/static/2/img/" mapping="/2/img/**"/>
     <mvc:resources location="/WEB-INF/static/2/css/" mapping="/2/css/**"/>
-     <mvc:resources location="/WEB-INF/static/2/editor/" mapping="/2/editor/**"/>
+     <mvc:resources location="/WEB-INF/static/1/editor/" mapping="/1/editor/**"/>
      <mvc:resources location="/WEB-INF/static/2/fonts/" mapping="/2/fonts/**"/>
       <mvc:resources location="/WEB-INF/static/2/vendor/" mapping="/2/vendor/**"/>
       <mvc:resources location="/WEB-INF/static/2/bootstrap/" mapping="/2/bootstrap/**"/>
