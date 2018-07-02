@@ -6,906 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8587f4-7034-46b1-afdf-613acb4eddc7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/OfficeXm_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/OfficeXm_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OfficeXm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/music2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/music3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/2/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/2/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/animation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/baidu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/blockquote.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/bottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/breadcrumb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/button-dropdown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/classes/com/cww/controller/WorkerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/classes/com/cww/mapper/WorkerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/classes/com/cww/mapper/WorkerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/classes/com/cww/pojo/Worker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/classes/com/cww/service/WorkerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/classes/com/cww/service/impl/WorkerServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/classes/com/cww/utils/PureNetUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/classes/spring-common.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/classes/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/classes/spring-tx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/echarts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/error1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/flex-layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/flow-layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/index2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/layer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/commons-io-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/commons-net-3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/druid-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/gson-2.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-validator-5.4.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/spring-test-4.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/login2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/paging.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/popups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/progress.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/search.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/css/font/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/css/font/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/css/font/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/css/font/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/css/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/css/plug-ins/customScrollbar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/css/plug-ins/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/anchor/anchor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/attachment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/attachment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/images/alignicon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/images/alignicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/attachment/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/background/background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/background/background.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/background/background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/background/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/background/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/charts/chart.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/charts/charts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/charts/charts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/charts/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/charts/images/charts0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/charts/images/charts1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/charts/images/charts2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/charts/images/charts3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/charts/images/charts4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/charts/images/charts5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/emotion/emotion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/emotion/emotion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/emotion/emotion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/emotion/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/emotion/images/bface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/emotion/images/cface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/emotion/images/fface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/emotion/images/tface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/emotion/images/wface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/emotion/images/yface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/gmap/gmap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/help/help.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/help/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/help/help.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/image/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/image/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/image/images/alignicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/image/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/image/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/image/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/image/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/image/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/image/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/image/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/insertframe/insertframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/internal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/link/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/map/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/music/music.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/music/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/music/music.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/preview/preview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/images/addimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/images/brush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/images/delimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/images/delimgH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/images/empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/images/emptyH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/images/eraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/images/redo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/images/redoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/images/scaleH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/images/size.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/images/undo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/images/undoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/scrawl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/scrawl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/scrawl/scrawl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/spechars/spechars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/spechars/spechars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/table/dragicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/table/edittable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/table/edittable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/table/edittable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/table/edittd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/table/edittip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/template/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/template/images/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/template/images/pre0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/template/images/pre1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/template/images/pre2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/template/images/pre3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/template/images/pre4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/template/template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/template/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/images/center_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/images/left_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/images/none_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/images/right_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/video/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/webapp/webapp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/wordimage/tangram.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/wordimage/wordimage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/dialogs/wordimage/wordimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/addimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/deletedisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/deleteenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/listbackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/rotateleftdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/rotateleftenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/rotaterightdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/rotaterightenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/en/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/zh-cn/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/zh-cn/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/zh-cn/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/zh-cn/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/lang/zh-cn/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/css/ueditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/css/ueditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/dialogbase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/button-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/cancelbutton.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/charts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/cursor_h.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/cursor_h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/cursor_v.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/cursor_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/dialog-title-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/filescan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/highlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/icons-all.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/loaderror.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/lock.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/pagebreak.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/sortable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/sparator_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/table-cell-align.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/tangram-colorpicker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/toolbar_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/unhighlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/videologo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/word.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/default/images/wordpaste.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/themes/iframe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/highcharts-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/annotations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/map.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/highcharts/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/jquery-1.10.2.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/video-js/font/vjs.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/video-js/font/vjs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/video-js/font/vjs.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/video-js/font/vjs.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/video-js/video-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/video-js/video-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/video-js/video-js.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/video-js/video.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/video-js/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/webuploader/Uploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/webuploader/webuploader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/webuploader/webuploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/webuploader/webuploader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/xss.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/ueditor.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/ueditor.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/ueditor.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/ueditor.parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/editor/ueditor.parse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/fonts/bootstrap.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/fonts/bootstrap.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/fonts/bootstrap.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/fonts/bootstrap.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/fonts/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/fonts/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/fonts/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/fonts/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/images/alipay_qrcode.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/images/icon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/images/wechat_qrcode.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/pages/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/pages/public.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/plug-ins/customScrollbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/plug-ins/echarts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/plug-ins/layerUi/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/plug-ins/layerUi/mobile/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/plug-ins/layerUi/mobile/need/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/plug-ins/layerUi/skin/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/plug-ins/layerUi/skin/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/plug-ins/layerUi/skin/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/plug-ins/layerUi/skin/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/plug-ins/layerUi/skin/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/plug-ins/layerUi/skin/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/plug-ins/pagination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/javascript/public.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/My97DatePicker/My97DatePicker.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/My97DatePicker/WdatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/My97DatePicker/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/My97DatePicker/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/My97DatePicker/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/PIE.htc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/Particleground.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/animate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/cloud.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/format+zh_CN,default,corechart.I.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/jquery.autoTextarea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/jquery.ba-resize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/jquery.gvChart-1.0.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/jquery.idTabs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/jquery.tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/jsapi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/asp.net/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/asp.net/bin/LitJSON.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/asp.net/demo.aspx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/asp.net/file_manager_json.ashx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/asp.net/upload_json.ashx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/asp/JSON_2.0.4.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/asp/UpLoad_Class.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/asp/demo.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/asp/file_manager_json.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/asp/upload_json.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/auto-height.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/colorpicker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/custom-plugin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/custom-theme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/dynamic-load.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/file-dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/file-manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/filter-mode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/image-dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/js/jquery-ui-1.9.2.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery-ui/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/multi-image-dialog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/multi-language.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/newline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/node.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/paste-type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/qqstyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/readonly.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/uploadbutton.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/url-type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/examples/word-count.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/jsp/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/jsp/demo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/jsp/file_manager_json.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/jsp/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/jsp/lib/commons-io-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/jsp/lib/json_simple-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/jsp/upload_json.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/kindeditor-all-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/kindeditor-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/kindeditor-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/kindeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/lang/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/lang/zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/php/JSON.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/php/demo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/php/file_manager_json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/php/upload_json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/anchor/anchor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/autoheight/autoheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/baidumap/baidumap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/baidumap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/baidumap/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/clearhtml/clearhtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/code/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/code/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/code/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/emoticons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/100.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/101.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/102.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/103.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/104.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/105.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/106.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/107.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/108.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/109.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/110.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/111.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/112.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/113.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/114.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/115.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/116.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/117.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/118.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/119.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/120.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/121.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/122.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/123.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/124.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/125.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/126.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/127.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/128.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/129.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/130.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/131.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/132.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/133.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/134.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/72.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/73.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/74.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/75.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/76.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/77.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/78.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/79.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/80.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/81.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/82.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/83.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/84.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/85.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/86.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/87.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/88.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/89.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/90.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/91.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/92.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/93.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/94.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/95.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/96.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/97.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/98.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/99.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/emoticons/images/static.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/filemanager/filemanager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/filemanager/images/file-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/filemanager/images/file-64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/filemanager/images/folder-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/filemanager/images/folder-64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/filemanager/images/go-up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/flash/flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/image/images/align_left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/image/images/align_right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/image/images/align_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/image/images/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/insertfile/insertfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/lineheight/lineheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/link/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/map/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/media/media.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/multiimage/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/multiimage/images/select-files-en.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/multiimage/images/select-files-zh_CN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/multiimage/images/swfupload.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/multiimage/multiimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/pagebreak/pagebreak.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/plainpaste/plainpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/preview/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/quickformat/quickformat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/table/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/template/html/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/template/html/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/template/html/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/plugins/wordpaste/wordpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/themes/common/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/themes/common/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/themes/common/flash.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/themes/common/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/themes/common/media.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/themes/common/rm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/themes/default/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/themes/default/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/themes/default/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/themes/qq/editor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/themes/qq/qq.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/kindeditor/themes/simple/simple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/register.src" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/select-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/js/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/public/btm-ft.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/public/html-head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/public/side-menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/public/top-hd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/1/src/jquery.gvChart-1.0.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/css/fonts/style.1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/css/panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/css/skins/palette.1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/about.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/dhjpg1528450165705.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/dhjpg1528450171000.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/dhjpg1528450184352.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/f28d6de7cff34dd190ea55aa77daac52.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/face1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/face3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/face4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/face5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/invoice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/profile-cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/tu11528450536463.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/tu11528450669189.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/tu11528452542284.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/tu11528452600014.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/tu1jpeg1528450206251.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/tu1jpeg1528450343865.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/tu3.jpeg1528450030145.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img/xiaoren.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img2c90f7178c2a4ce0a66ef91d26f7f3ff.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/img8b792b8796794c91a381a2ac63dda948.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/cloudflare.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/components.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/editor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/feed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/forms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/maps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/off-canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/panel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/sortable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/tasks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/vector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/js/widgets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/audioplayer/audioplayer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/audioplayer/audioplayer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/bootstrap-datepicker/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/bootstrap-datepicker/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/bootstrap-select/bootstrap-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/bootstrap-select/bootstrap-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/bxslider/images/bx_loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/bxslider/jquery.bxslider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/bxslider/jquery.bxslider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/chartjs/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/dropzone/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/dropzone/dropzone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/easy-pie-chart/jquery.easypiechart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/fastclick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/flot/jquery.flot.categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/flot/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/flot/jquery.flot.orderBars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/flot/jquery.flot.pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/flot/jquery.flot.resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/flot/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/flot/jquery.flot.time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/fuelux/checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/fuelux/pillbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/fuelux/radio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/fuelux/spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/fuelux/wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/fullcalendar/fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/fullcalendar/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/imagesloaded/imagesloaded.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/isotope/isotope.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/jquery-1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/jquery-ui.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/jquery.blockUI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/jquery.easing.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/jquery.maskedinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/jquery.nestable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/jquery.placeholder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/jquery.slimscroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/jquery.sortable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/jquery.sparkline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/jvectormap/jquery-jvectormap-1.2.2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/jvectormap/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/jvectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/medium/medium-editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/medium/medium-editor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/medium/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/morris/morris.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/offline/offline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/offline/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/pace/pace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/pace/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/parsley.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/raphael.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/skycons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/slider/bootstrap-slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/slider/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/switchery/switchery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/table-sortable/sortable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/table-sortable/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/timepicker/jquery.timepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/timepicker/jquery.timepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/toastr/toastr.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/toastr/toastr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/video-js/video-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/video-js/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/wysiwyg/bootstrap-wysiwyg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/static/2/vendor/wysiwyg/jquery.hotkeys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/tab.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/taglib.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/text-panel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/title.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/ueditor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/OfficeXm-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cww/controller/WorkerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cww/mapper/WorkerMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cww/mapper/WorkerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cww/pojo/Worker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cww/service/WorkerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cww/service/impl/WorkerServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/cww/utils/PureNetUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring-common.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring-tx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/.jsdtscope" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cww/controller/MusicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cww/controller/MusicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cww/mapper/MusicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cww/mapper/MusicMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cww/mapper/MusicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cww/mapper/MusicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cww/service/impl/MusicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cww/service/impl/MusicServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login2.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/music1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/music1.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/same_body.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/same_body.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6d8587f4-7034-46b1-afdf-613acb4eddc7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -919,8 +20,8 @@
       <file leaf-file-name="info.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/info.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="157" column="57" lean-forward="true" selection-start-line="157" selection-start-column="57" selection-end-line="157" selection-end-column="57" />
+            <state relative-caret-position="2983">
+              <caret line="157" column="57" selection-start-line="157" selection-start-column="57" selection-end-line="157" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -937,7 +38,7 @@
       <file leaf-file-name="MusicMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cww/mapper/MusicMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="342">
               <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
             </state>
           </provider>
@@ -955,7 +56,7 @@
       <file leaf-file-name="MusicController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cww/controller/MusicController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="285">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
@@ -976,8 +77,8 @@
       <file leaf-file-name="music1.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/music1.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="85" column="39" lean-forward="true" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+            <state relative-caret-position="1615">
+              <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -985,7 +86,7 @@
       <file leaf-file-name="MusicService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cww/service/MusicService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state relative-caret-position="76">
               <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -1049,9 +150,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="12" />
-    <option name="y" value="-14" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="35" />
+    <option name="y" value="15" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -1338,14 +439,15 @@
       <workItem from="1528565216994" duration="5464000" />
       <workItem from="1530318339292" duration="2109000" />
       <workItem from="1530425254404" duration="5792000" />
+      <workItem from="1530507414371" duration="218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18946000" />
+    <option name="totallyTimeSpent" value="19164000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.329653" />
@@ -1358,9 +460,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8931186" visible="true" weight="0.6340694" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8931186" weight="0.6340694" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.329653" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
@@ -1369,7 +470,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.329653" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23645681" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1377,6 +478,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.329653" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -1657,7 +759,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cww/service/MusicService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="76">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1695,7 +797,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cww/mapper/MusicMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="342">
           <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
         </state>
       </provider>
@@ -1704,34 +806,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="177" selection-start-line="177" selection-end-line="177" />
-          <folding>
-            <element signature="e#1687#1688#0" expanded="true" />
-            <element signature="e#1745#1746#0" expanded="true" />
-            <element signature="e#2456#2457#0" expanded="true" />
-            <element signature="e#2517#2518#0" expanded="true" />
-            <element signature="e#2578#2579#0" expanded="true" />
-            <element signature="e#2641#2642#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="157" column="57" lean-forward="true" selection-start-line="157" selection-start-column="57" selection-end-line="157" selection-end-column="57" />
+        <state relative-caret-position="2983">
+          <caret line="157" column="57" selection-start-line="157" selection-start-column="57" selection-end-line="157" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/music1.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="85" column="39" lean-forward="true" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
+        <state relative-caret-position="1615">
+          <caret line="85" column="39" selection-start-line="85" selection-start-column="39" selection-end-line="85" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cww/controller/MusicController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="285">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
