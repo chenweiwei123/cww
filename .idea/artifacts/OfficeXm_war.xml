@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="OfficeXm:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="OfficeXm-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="OfficeXm:war exploded" />
+    </root>
+  </artifact>
+</component>
