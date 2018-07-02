@@ -14,7 +14,7 @@ public class MusicServiceImpl implements MusicService{
 	MusicMapper mapper;
 	@Override
 	public List<Music> FindMusics(Integer start, Integer step) {
-		return mapper.findAllMusic(start, step);
+		return mapper.findAllMusic();
 	}
 
 }

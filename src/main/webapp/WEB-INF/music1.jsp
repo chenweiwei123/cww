@@ -82,9 +82,17 @@
 	<![endif]-->
 
 	<script src="${cww}/2/vendor/modernizr.js"></script>
-	<script>
-
-		window.onload
+	<script type="text/javascript">
+        $(document).ready(function () {
+          //  window.location.href = "${pageContext.request.contextPath}/login.do"
+			$.ajax("${cww}/music/list", function(res){
+                if(res.status == 200){
+                    $.message.alert("提示","亲，系统升级中");
+                }else{
+                    $.message.alert("提示","亲，系统升级中");
+                }
+            })
+        });
 	</script>
 
 </head>
@@ -167,162 +175,11 @@
 	<script type="text/javascript">
 		$(f);
 		window.onload=function(){
-            $.ajax("${cww}/music/list", function(res){
-                if(res.status == 200){
-                    $.message.alert("提示","ok");
-                }else{
-                    $.message.alert("提示","亲，系统升级中");
-                }
-            })
+
 		}
 
 	</script>
-			<script>
-				//分页
-				$(".pagination").createPage({
-			        pageCount:5,
-			        current:1,
-			        backFn:function(p){
-			            console.log(p);
-			        }
-			    });
-				//demo1
-				var dom = document.getElementById("demo1");
-				var myChart = echarts.init(dom);
-				var app = {};
-				option = null;
-				function randomData() {
-					now = new Date(+now + oneDay);
-					value = value + Math.random() * 21 - 10;
-					return {
-						name: now.toString(),
-						value: [
-							[now.getFullYear(), now.getMonth() + 1, now.getDate()].join('/'),
-							Math.round(value)
-						]
-					}
-				}
-			
-				var data = [];
-				var now = +new Date(1997, 9, 3);
-				var oneDay = 24 * 3600 * 1000;
-				var value = Math.random() * 1000;
-				for (var i = 0; i < 1000; i++) {
-					data.push(randomData());
-				}
-			
-				option = {
-					tooltip: {
-						trigger: 'axis',
-						formatter: function (params) {
-							params = params[0];
-							var date = new Date(params.name);
-							return date.getDate() + '/' + (date.getMonth() + 1) + '/' + date.getFullYear() + ' : ' + params.value[1];
-						},
-						axisPointer: {
-							animation: false
-						}
-					},
-					xAxis: {
-						type: 'time',
-						splitLine: {
-							show: false
-						}
-					},
-					yAxis: {
-						type: 'value',
-						boundaryGap: [0, '100%'],
-						splitLine: {
-							show: false
-						}
-					},
-					series: [{
-						name: '模拟数据',
-						type: 'line',
-						showSymbol: false,
-						hoverAnimation: false,
-						data: data
-					}]
-				};
-			
-				setInterval(function () {
-			
-					for (var i = 0; i < 5; i++) {
-						data.shift();
-						data.push(randomData());
-					}
-			
-					myChart.setOption({
-						series: [{
-							data: data
-						}]
-					});
-				}, 1000);;
-				if (option && typeof option === "object") {
-					myChart.setOption(option, true);
-				}
-				
-				//demo2
-				var dom = document.getElementById("demo2");
-				var myChart = echarts.init(dom);
-				var app = {};
-				option = null;
-				option = {
-					tooltip: {
-						trigger: 'axis'
-					},
-					grid: {
-						left: '3%',
-						right: '4%',
-						bottom: '3%',
-						containLabel: true
-					},
-					xAxis: {
-						type: 'category',
-						boundaryGap: false,
-						data: ['周一','周二','周三','周四','周五','周六','周日']
-					},
-					yAxis: {
-						type: 'value'
-					},
-					series: [
-						{
-							name:'邮件营销',
-							type:'line',
-							stack: '总量',
-							data:[120, 132, 101, 134, 90, 230, 210]
-						},
-						{
-							name:'联盟广告',
-							type:'line',
-							stack: '总量',
-							data:[220, 182, 191, 234, 290, 330, 310]
-						},
-						{
-							name:'视频广告',
-							type:'line',
-							stack: '总量',
-							data:[150, 232, 201, 154, 190, 330, 410]
-						},
-						{
-							name:'直接访问',
-							type:'line',
-							stack: '总量',
-							data:[320, 332, 301, 334, 390, 330, 320]
-						},
-						{
-							name:'搜索引擎',
-							type:'line',
-							stack: '总量',
-							data:[820, 932, 901, 934, 1290, 1330, 1320]
-						}
-					]
-				};
-				;
-				if (option && typeof option === "object") {
-					myChart.setOption(option, true);
-				}	
-			</script>
+
 			<!--开始::结束-->
 		</div>
 		<footer class="btm-ft">

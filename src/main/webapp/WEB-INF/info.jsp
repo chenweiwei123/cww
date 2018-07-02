@@ -172,7 +172,7 @@
                                 <section class="panel no-border overflow-hidden widget-social">
                                     <div class="panel-body bg-white">
                                         <a href="javascript:;" class="pull-left mg-r-md">
-                                            <img src="${cww}/2/img/avatar.jpg" class="avatar avatar-md img-circle" alt="">
+                                            <img src="${cww}/2/img/face1.jpg" class="avatar avatar-md img-circle" alt="">
                                         </a>
                                         <div>陈炫
                                             <small class="pull-right">87 mins ago</small>
@@ -211,7 +211,7 @@
                                     </div>
                                     <div class="panel-body">
                                         <a href="javascript:;" class="pull-left mg-r-md">
-                                            <img src="${cww}/2/img/avatar.jpg" class="avatar avatar-sm img-circle" alt="">
+                                            <img src="${cww}/2/img/face3.jpg" class="avatar avatar-sm img-circle" alt="">
                                         </a>
                                         <div>重要事件</div>
                                         <small>今天</small>
@@ -267,7 +267,7 @@
                                     <ul class="list-group">
                                         <li class="list-group-item">
 	                                                <span class="pull-left mg-t-xs mg-r-md">
-	<img src="/OfficeXm/2/img/xiaoren.jpg" class="avatar avatar-sm img-circle" alt="">
+	<img src="/OfficeXm/2/img/face1.jpg" class="avatar avatar-sm img-circle" alt="">
 	</span>
                                             <div class="show no-margin pd-t-xs">
                                                 陈炫

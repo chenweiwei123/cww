@@ -24,7 +24,7 @@ public class MusicController {
 	 */
 	@RequestMapping("/list")
 	@ResponseBody
-	public List<Music> getMusics(Integer start,Integer step){
+	public List<Music> getMusics(){
 		List<Music> musics=new ArrayList<>();
 		musics=service.FindMusics(0,1);
 		return musics;

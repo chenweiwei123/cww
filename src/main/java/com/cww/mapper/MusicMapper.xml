@@ -16,11 +16,8 @@
 	<result column="name" jdbcType="VARCHAR" property="name"/>
 	<result column="sex" jdbcType="INTEGER" property="sex"/>
 </resultMap>
-    <select id="findAllMusic"  resultMap="musicMap" parameterType="int" >
+    <select id="findAllMusic"  resultMap="musicMap"  >
    
     SELECT a.id,a.name,a.location,a.follow,a.image,s.id,s.location,s.follows,s.name,s.sex FROM music a join single s  on a.singer=s.id
-    <if test="start !=null and step !=null" >
-    limit ${start},${step}
-    </if>
     </select>
 </mapper>

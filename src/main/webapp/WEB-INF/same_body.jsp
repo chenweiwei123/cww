@@ -7,6 +7,8 @@
 --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="cww" value="${pageContext.request.contextPath }"/>
 <div class="side-nav">
     <div class="side-logo">
         <div class="logo">
@@ -50,13 +52,13 @@
                             <i class="icon-columns"></i>来嗨音乐馆<i class="icon-angle-right"></i>
                         </dt>
                         <dd>
-                            <a href="music1.jsp">Fashion Music</a>
+                            <a href="${cww}/music/music1">Fashion Music</a>
                         </dd>
                         <dd>
-                            <a href="music2.jsp">推荐好听 Music</a>
+                            <a href="${cww}/music/music2">推荐好听 Music</a>
                         </dd>
                         <dd>
-                            <a href="music3.jsp">owner Music</a>
+                            <a href="${cww}/music/music3">owner Music</a>
                         </dd>
                     </dl>
                 </li>
