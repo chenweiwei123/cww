@@ -3,6 +3,8 @@ package com.cww.controller;
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
+
+import com.sun.xml.internal.ws.api.policy.PolicyResolver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -13,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.cww.pojo.Worker;
 import com.cww.service.WorkerService;
 
+import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
@@ -40,9 +43,8 @@ public class WorkerController {
     public String getInfo(@RequestParam("phone") Integer phone,ModelMap map, HttpServletRequest req) {
     	Worker worker = service.findWorker(phone);
     	if(worker == null ) return "login2";
-    	//map.addAttribute("worker", worker);
-		HttpSession session=req.getSession();
-		session.setAttribute("worker",worker);
+		ServletContext context = req.getServletContext();
+		context.setAttribute("worker",worker);
     	return "info";
     }
     @RequestMapping(value="/registers", method=RequestMethod.POST)
@@ -76,8 +78,9 @@ public class WorkerController {
         if (num ==0){//添加失败
             return "404";
         }
-		session.setAttribute("worker",worker);
-        return "login2";
+		ServletContext context = req.getServletContext();
+		context.setAttribute("worker",worker);
+		return "login2";
     }
     /**
      * 公共页面跳转
