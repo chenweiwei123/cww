@@ -33,7 +33,7 @@
                             <i class="icon-table"></i>用心旅游<i class="icon-angle-right"></i>
                         </dt>
                         <dd>
-                            <a href="weather1.jsp">旅游天气</a>
+                            <a href="${cww}/url/weather1">旅游天气</a>
                         </dd>
                         <dd>
                             <a href="weather2.jsp">乡土情怀</a>
@@ -52,7 +52,7 @@
                             <i class="icon-columns"></i>来嗨音乐馆<i class="icon-angle-right"></i>
                         </dt>
                         <dd>
-                            <a href="${cww}/music/music1">Fashion Music</a>
+                            <a href="${cww}/music/list">Fashion Music</a>
                         </dd>
                         <dd>
                             <a href="${cww}/music/music2">推荐好听 Music</a>

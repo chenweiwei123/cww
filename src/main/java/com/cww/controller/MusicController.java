@@ -13,6 +13,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.cww.pojo.Music;
 import com.cww.service.MusicService;
+
+import javax.servlet.http.HttpServletRequest;
+
 @Controller
 @RequestMapping("/music")
 public class MusicController {
@@ -23,11 +26,11 @@ public class MusicController {
 	 * 查询所有的音乐
 	 */
 	@RequestMapping("/list")
-	@ResponseBody
-	public List<Music> getMusics(){
+	public String getMusics(HttpServletRequest request){
 		List<Music> musics=new ArrayList<>();
 		musics=service.FindMusics(0,1);
-		return musics;
+		request.setAttribute("musics",musics);
+		return "music1";
 	}
 	  /**
      * 公共页面跳转

@@ -2,22 +2,22 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.cww.mapper.MusicMapper">
 <resultMap type="com.cww.pojo.Music" id="musicMap">
-	<result column="id" jdbcType="INTEGER" property="id"/>
-	<result column="image" jdbcType="VARCHAR" property="images"/>
-	<result column="location" jdbcType="VARCHAR" property="location"/>
-	<result column="name" jdbcType="INTEGER" property="id"/>
-	<result column="follow" jdbcType="INTEGER" property="id"/>
+	<result column="aid" jdbcType="INTEGER" property="id"/>
+	<result column="aimage" jdbcType="VARCHAR" property="images"/>
+	<result column="alocation" jdbcType="VARCHAR" property="location"/>
+	<result column="aname" jdbcType="VARCHAR" property="name"/>
+	<result column="afollow" jdbcType="INTEGER" property="follow"/>
 	<association property="singer" column="singer"  resultMap="singerMap"></association>
 </resultMap>
 <resultMap type="com.cww.pojo.Singer" id="singerMap">
-	<result column="id" jdbcType="INTEGER" property="id"/>
-	<result column="follows" jdbcType="INTEGER" property="follow"/>
-	<result column="location" jdbcType="VARCHAR" property="location"/>
-	<result column="name" jdbcType="VARCHAR" property="name"/>
-	<result column="sex" jdbcType="INTEGER" property="sex"/>
+	<result column="sid" jdbcType="INTEGER" property="id" />
+	<result column="sfollows" jdbcType="INTEGER" property="follow"/>
+	<result column="slocation" jdbcType="VARCHAR" property="location"/>
+	<result column="sname" jdbcType="VARCHAR" property="name"/>
+	<result column="ssex" jdbcType="INTEGER" property="sex"/>
 </resultMap>
-    <select id="findAllMusic"  resultMap="musicMap"  >
+    <select  id="findAllMusic"  resultMap="musicMap"  >
    
-    SELECT a.id,a.name,a.location,a.follow,a.image,s.id,s.location,s.follows,s.name,s.sex FROM music a join single s  on a.singer=s.id
+    SELECT a.id aid,a.image aimage,a.location alocation,a.name aname,a.follow afollow,s.id sid,s.follows sfollows,s.location slocation,s.name sname,s.sex ssex FROM music a join single s  on a.singer=s.id
     </select>
 </mapper>

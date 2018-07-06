@@ -87,7 +87,8 @@
           //  window.location.href = "${pageContext.request.contextPath}/login.do"
 			$.ajax("${cww}/music/list", function(res){
                 if(res.status == 200){
-                    $.message.alert("提示","亲，系统升级中");
+                    document.getElementById("foreach");
+                    alert("亲"+res);
                 }else{
                     $.message.alert("提示","亲，系统升级中");
                 }
@@ -137,35 +138,45 @@
 					</header>
 					<hr>
 				</section>
-				<table class="table mb-15">
-					<thead>
-						<tr>
-							<th><input type="checkbox"/></th>
-							<th>音乐编号</th>
-							<th>音乐封面</th>
-							<th>音乐名</th>
-							<th>主唱人</th>
-							<th>点赞数</th>
-							<th>操作</th>
-						</tr>
-					</thead>
-					<tbody>
-					<c:forEach begin="0" step="1" var="music" items="${musics}">
-						<tr class="cen">
-							<td><input type="checkbox"/></td>
-							<td>${music.id}</td>
-							<td><image src="${music.images}"/></td>
-							<td class="lt"><a href="#">${music.name}</a></td>
-							<td class="lt"><a href="#">${music.singer.name}</a></td>
-							<td>${music.follow}</td>
-							<td>
-								<a title="点赞" class="mr-5" id="dianZan">点赞</a>
-								<a title="播放" id="plan"> <audio src="${music.location}" controls="controls" id="mus" onclick="toPlan();" loop="1">播放</audio></a>
-							</td>
-						</tr>
-						</c:forEach>
-					</tbody>
-				</table>
+					<!-->
+					<div class="col-md-12">
+						<section class="panel">
+							<header class="panel-heading">music</header>
+							<div class="panel-body no-padding">
+								<div class="table-responsive">
+									<table class="table table-striped responsive" data-sortable>
+										<thead>
+										<tr>
+											<th  >音乐编号</th>
+											<th >音乐封面</th>
+											<th  >音乐名</th>
+											<th >主唱人</th>
+											<th  >点赞数</th>
+											<th  >操作</th>
+										</tr>
+										</thead>
+										<tbody>
+									<c:forEach begin="0" step="1" var="music" items="${musics}">
+										<tr>
+											<td>${music.id}</td>
+											<td><image src="${music.images}" /></td>
+											<td class="lt"><a  href="#">${music.name}</a></td>
+											<td class="lt"><a  href="#">${music.singer.name}</a></td>
+											<td>${music.follow}</td>
+											<td>
+												<a title="点赞" class="mr-5" >点赞</a>
+												<a title="播放"  class="mr-5" > <audio src="${music.location}" id="mus" preload="auto"  loop="1"></audio></a>
+												<a title="差评" class="mr-5">拉票</a>
+											</td>
+										</tr>
+									</c:forEach>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</section>
+					</div>
+					<!-->
 				<!--开始::结束-->
 			</div>
 
