@@ -68,10 +68,10 @@
                             <i class="icon-inbox"></i>备忘录<i class="icon-angle-right"></i>
                         </dt>
                         <dd>
-                            <a href="beiwang1.jsp">Owner Memorandum</a>
+                            <a href="${cww}/url/beiwang1">new Memorandum</a>
                         </dd>
                         <dd>
-                            <a href="beiwang2.jsp">Record Memorandum</a>
+                            <a href="${cww}/url/beiwang2">Record Memorandum</a>
                         </dd>
                     </dl>
                 </li>

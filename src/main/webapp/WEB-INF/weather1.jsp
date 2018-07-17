@@ -52,10 +52,44 @@
                                  type:"get",
                                  success: function (data) {
                                      $.each(data, function (i, v) {
-                                                 layer.msg('拼命加载中');
-                                                 layer.alert(data);
-                                                var a= document.getElementById("1");
-                                                a.innerHTML="日期："+data.forecast[0].date;
+
+                                             layer.msg('拼命加载中');
+                                         {
+                                             var a1 = document.getElementById("1w");
+                                             a1.innerHTML = "* " + data.data.forecast[0].date;
+                                             var a2 = document.getElementById("2w");
+                                             a2.innerHTML = data.data.forecast[1].date;
+                                             var a3 = document.getElementById("3w");
+                                             a3.innerHTML = data.data.forecast[2].date;
+                                             var a4 = document.getElementById("4w");
+                                             a4.innerHTML = data.data.forecast[3].date;
+                                             var a5 = document.getElementById("5w");
+                                             a5.innerHTML = +data.data.forecast[4].date;
+                                             var a1 = document.getElementById("1");
+                                             a1.innerHTML =data.data.forecast[0].wendu;
+                                             a1.text(data.data.forecast[0].wendu);
+                                             var a2 = document.getElementById("2");
+                                             a2.innerHTML = data.data.forecast[1].wendu;
+                                             var a3 = document.getElementById("3");
+                                             a3.innerHTML = data.data.forecast[2].wendu;
+                                             var a4 = document.getElementById("4");
+                                             a4.innerHTML = data.data.forecast[3].wendu;
+                                             var a5 = document.getElementById("5");
+                                             a5.innerHTML = +data.data.forecast[4].wendu;
+                                         }
+                                         {
+                                             var a1 = document.getElementById("1");
+                                             a1.innerHTML +=data.data.forecast[0].fengli;
+                                             var a2 = document.getElementById("2");
+                                             a2.innerHTML += data.data.forecast[1].fengli;
+                                             var a3 = document.getElementById("3");
+                                             a3.innerHTML += data.data.forecast[2].fengli;
+                                             var a4 = document.getElementById("4");
+                                             a4.innerHTML += data.data.forecast[3].fengli;
+                                             var a5 = document.getElementById("5");
+                                             a5.html.append("&nbsp"+data.data.forecast[4].fengli)
+                                             a5.innerHTML += +data.data.forecast[4].fengli;
+                                         }
                                          });
                                },
                              error: function (responseText, textStatus, XMLHttpRequest) {
@@ -113,7 +147,7 @@
                 <ul class="flex flex-wrap flex-col-5">
                     <li class="box-child">
                         <div class="panel panel-primary">
-                            <div class="panel-hd">今天</div>
+                            <div class="panel-hd" id="1w">今天</div>
                             <div class="panel-bd" id="1">
 
                             </div>
@@ -121,7 +155,7 @@
                     </li>
                     <li class="box-child">
                         <div class="panel panel-secondary">
-                            <div class="panel-hd">明天</div>
+                            <div class="panel-hd" id ="2w">明天</div>
                             <div class="panel-bd" id="2">
                                 弹性盒子布局·五列多行样式
                             </div>
@@ -129,7 +163,7 @@
                     </li>
                     <li class="box-child">
                         <div class="panel panel-primary">
-                            <div class="panel-hd">后天</div>
+                            <div class="panel-hd"id="3w">后天</div>
                             <div class="panel-bd" id="3">
                                 弹性盒子布局·五列多行样式
                             </div>
@@ -137,15 +171,15 @@
                     </li>
                     <li class="box-child">
                         <div class="panel panel-primary">
-                            <div class="panel-hd" id="4">大后天</div>
-                            <div class="panel-bd">
+                            <div class="panel-hd" id="4w">大后天</div>
+                            <div class="panel-bd" id="4">
                                 弹性盒子布局·五列多行样式
                             </div>
                         </div>
                     </li>
                     <li class="box-child">
                         <div class="panel panel-primary">
-                            <div class="panel-hd">第五天</div>
+                            <div class="panel-hd" id="5w">第五天</div>
                             <div class="panel-bd" id="5">
                                 弹性盒子布局·五列多行样式
                             </div>

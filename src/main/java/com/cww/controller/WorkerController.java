@@ -29,14 +29,15 @@ public class WorkerController {
      * @return 路径的string形式
      */
     @RequestMapping(value="/login")
-    public String getLogin(@RequestParam("phone") Integer phone,String password,ModelMap map){
+    public String getLogin(@RequestParam("phone") Integer phone,String password,HttpServletRequest req){
     	Worker worker = service.findWorker(phone);
     	if(worker == null ) return "register";
     	String pwd = worker.getPassword();
     	if(!pwd.equals(password)) {
     		return "register";
     	}
-    	map.addAttribute("worker", worker);
+		ServletContext context = req.getServletContext();
+		context.setAttribute("worker",worker);
       return "login2";
     }
     @RequestMapping(value="/info")

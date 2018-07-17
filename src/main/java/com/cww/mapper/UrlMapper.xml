@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cww.mapper.UrlMapper">
+  <resultMap id="nss" type="com.cww.pojo.Note">
+    <id column="id" property="id" jdbcType="INTEGER"  />
+    <result column="creat_time" property="date" jdbcType="DATE"/>
+    <result column="order" property="order" jdbcType="INTEGER"/>
+    <result column="themes" property="themes" jdbcType="INTEGER"  />
+    <result column="consumer_id" property="comsumerId" jdbcType="INTEGER" />
+    <result column="desc" property="desc"  jdbcType="VARCHAR" />
+  </resultMap>
+  <resultMap id="themess" type="com.cww.pojo.Theme">
+    <result column="id" property="id" jdbcType="INTEGER"/>
+    <result column="name" property="name" jdbcType="VARCHAR"/>
+  </resultMap>
+  <select id="selectAllTheme" resultMap="themess" >
+    select id,name from theme
+  </select>
+    <select id="selectTheme" resultType="com.cww.pojo.Theme" >
+    select id,name from theme where id =#{id}
+  </select>
+    <select id="selectallNotes" resultMap="nss" parameterType="int">
+        select id,order,creat_time,desc,themes from notes where consumer_id=#{owner};
+    </select>
+  <insert id="insertNotes" parameterType="com.cww.pojo.Note">
+  </insert>
+    <select id="selectNoteById" resultType="com.cww.pojo.Note" parameterType="int">
+      select id,order,creat_time,desc,themes from notes where id=#{id};
+    </select>
+</mapper>
