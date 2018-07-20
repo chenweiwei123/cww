@@ -4,14 +4,12 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Date;
 
+import com.cww.utils.Data;
 import com.sun.xml.internal.ws.api.policy.PolicyResolver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import com.cww.pojo.Worker;
 import com.cww.service.WorkerService;
 
@@ -29,29 +27,35 @@ public class WorkerController {
      * @return 路径的string形式
      */
     @RequestMapping(value="/login")
-    public String getLogin(@RequestParam("phone") Integer phone,String password,HttpServletRequest req){
+	@ResponseBody
+    public Data getLogin(@RequestParam("phone") Integer phone, String password){
+    	Data data=new Data();
     	Worker worker = service.findWorker(phone);
-    	if(worker == null ) return "register";
+    	if(worker == null ){
+    		data.setCode(404);
+			return  data;
+		}
     	String pwd = worker.getPassword();
     	if(!pwd.equals(password)) {
-    		return "register";
+    		data.setCode(404);
+    		return data;
     	}
-		ServletContext context = req.getServletContext();
-		context.setAttribute("worker",worker);
-      return "login2";
+    	data.setCode(200);
+    	data.setDatas(worker);
+      return data;
     }
     @RequestMapping(value="/info")
     public String getInfo(@RequestParam("phone") Integer phone,ModelMap map, HttpServletRequest req) {
     	Worker worker = service.findWorker(phone);
-    	if(worker == null ) return "login2";
+    	if(worker == null ) return "now/login2";
 		ServletContext context = req.getServletContext();
 		context.setAttribute("worker",worker);
-    	return "info";
+    	return "now/info";
     }
     @RequestMapping(value="/registers", method=RequestMethod.POST)
     public String  addRegister(Worker worker, ModelMap map, HttpServletRequest req){
     	int num;
-    	String path = "/OfficeXm/2/img/";
+    	String path = "/cww/2/img/";
     	HttpSession session=req.getSession();
     	//文件类型 application/java
     	if(worker.getFile() != null) {
@@ -64,24 +68,24 @@ public class WorkerController {
     		try {
     			worker.getFile().transferTo(new File(filen));
     		} catch (IllegalStateException | IOException e1) {
-    			return "404";
+    			return "now/404";
     		}
     		worker.setImage(path+"."+owner);
     	}else {
-    		String defaultName="/OfficeXm/2/img/xiaoren.jpg";
+    		String defaultName="/cww/2/img/xiaoren.jpg";
     		worker.setImage(defaultName);
     	}
 		try {
 			num = service.addWorker(worker);
 		} catch (Exception e) {
-			return "404";
+			return "now/404";
 		}
         if (num ==0){//添加失败
-            return "404";
+            return "now/404";
         }
 		ServletContext context = req.getServletContext();
 		context.setAttribute("worker",worker);
-		return "login2";
+		return "now/login2";
     }
     /**
      * 公共页面跳转

@@ -5,8 +5,9 @@
   Time: 上午11:50
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ include file="./taglib.jsp" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<%@ include file="taglib.jsp" %>
 <html>
 <head>
     <title>欢迎使用注册界面</title>
@@ -32,7 +33,7 @@
         <tr>
             <td>
 				<div class="input-group">
-					<span class="input-group-addon" id="basic-addon1">名称 &nbsp;&nbsp;&nbsp;</span> 
+					<span class="input-group-addon" id="basic-addon2">名称 &nbsp;&nbsp;&nbsp;</span>
 					<input id="name" name="name" type="text" class="form-control" placeholder="Username"
 						aria-describedby="basic-addon1">
 				</div>
@@ -41,8 +42,8 @@
         <tr>
             <td>
             <div class="input-group">
-					<span class="input-group-addon" id="basic-addon1">手机号</span> 
-					<input id="phone" name="phone" type="number"  class="form-control" placeholder="手机号"
+					<span class="input-group-addon" id="basic-addon3">手机号</span>
+					<input  name="phone" type="number"  class="form-control" placeholder="手机号"
 						aria-describedby="basic-addon1">
 				</div>
              </td>
@@ -50,7 +51,7 @@
         <tr>
             <td >
             <div class="input-group">
-					<span class="input-group-addon" id="basic-addon1">密码&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+					<span class="input-group-addon" id="basic-addon4">密码&nbsp;&nbsp;&nbsp;&nbsp;</span>
 					<input  type="password" class="form-control" placeholder="密码"
 						aria-describedby="basic-addon1" name="password" id="password" >
 				</div>
@@ -60,9 +61,9 @@
             <td>
             <div class="input-group">
 					<span class="input-group-addon" id="basic-addon1">性别</span> 
-					<input id="phone" name="phone" type="radio" class="form-control"
+					<input id="sex" name="phone" type="radio" class="form-control"
 						aria-describedby="basic-addon1" value="1" checked="checked">男
-					<input id="phone" name="phone" type="radio" class="form-control" 
+					<input id="sex2" name="phone" type="radio" class="form-control"
 						aria-describedby="basic-addon1" value="0">女
 				</div>
              </td>

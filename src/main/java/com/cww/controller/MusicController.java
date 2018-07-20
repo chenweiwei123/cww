@@ -30,7 +30,7 @@ public class MusicController {
 		List<Music> musics=new ArrayList<>();
 		musics=service.FindMusics(0,1);
 		request.setAttribute("musics",musics);
-		return "music1";
+		return "now/music1";
 	}
 	  /**
      * 公共页面跳转

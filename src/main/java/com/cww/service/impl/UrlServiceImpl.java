@@ -44,4 +44,9 @@ public class UrlServiceImpl implements UrlService {
     public void insertnotes(Note note) {
         mapper.insertNotes(note);
     }
+
+    @Override
+    public Note getnotesByid(Integer id) {
+        return mapper.selectNoteById(id);
+    }
 }

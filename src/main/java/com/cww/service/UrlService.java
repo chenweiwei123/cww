@@ -11,4 +11,5 @@ public interface UrlService {
     List<Theme> gettheme();
     List<Note> getnotes(Integer owner);
     void insertnotes(Note note);
+    Note getnotesByid(Integer id);
 }

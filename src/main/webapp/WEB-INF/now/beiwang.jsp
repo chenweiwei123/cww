@@ -139,7 +139,7 @@
                     </header>
                     <hr>
                 </section>
-                <form method="post" action="${cww}/url/beiwang">
+                <form method="post"  action="${cww}/url/bei" >
                     <table>
                     <div class="form-group-col-2">
                         <div class="form-label">备忘录标题：</div>
@@ -155,7 +155,7 @@
                 <div class="form-group-col-2">
                     <div class="form-label">开始时间：</div>
                     <div class="form-cont">
-                    <input type="text" name="date"  class="Wdate"  onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm'})"/></br>
+                    <input type="text" name="dat" class="Wdate"  onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm'})" /></br>
                     </div>
                 </div>
                 <div class="form-group-col-2">

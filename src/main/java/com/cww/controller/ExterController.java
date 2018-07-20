@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 @Controller
@@ -19,30 +21,41 @@ public class ExterController {
     UrlService service;
     @RequestMapping("weather")
     public String getWeather(){
-        return "weather1";
+        return "now/weather1";
     }
     @RequestMapping("beiwang1")
     public String getThemes(HttpServletRequest request){
         List<Theme> themes= service.gettheme();
         HttpSession session=request.getSession();
         session.setAttribute("themes",themes);
-        return "beiwang";
+        return "now/beiwang";
     }
-    @RequestMapping("beiwang")
-    public String insertInfo(Note note){
+    @RequestMapping("info")
+    public String getinfo(Integer id,HttpServletRequest request){
+        Note note=service.getnotesByid(id);
+        request.setAttribute("note",note);
+        return "beiwang3";
+    }
+    @RequestMapping("bei")
+    public String insertInfo(Note note,String dat,HttpServletRequest request){
         try{
+            //dat  String-->Date
+            SimpleDateFormat sdf = new SimpleDateFormat( "yyyy-MM-dd HH:mm" );
+            Date date=sdf.parse(dat);
+            note.setDate(date);
             service.insertnotes(note);
+            request.setAttribute("note",note);
         }catch (Exception e){
-           return "error";
+           return "now/error";
         }
-        return "beiwang2";
+        return "beiwang3"; //beiwang3是显示单个信息
     }
-    @RequestMapping("beiwang2")
+    @RequestMapping("beiinfo")
     public String getInfo(Integer owner,HttpServletRequest request){
        List<Note> notes= service.getnotes(owner);
        HttpSession session=request.getSession();
        session.setAttribute("notes",notes);
-       return "beiwang2";
+       return "beiwang2";//显示所有的信息
     }
     /**
      * 公共页面跳转

@@ -12,6 +12,13 @@ public class Note {
     private Integer comsumerId;
     private String desc;
 
+    public Integer getComsumerId() {
+        return comsumerId;
+    }
+
+    public void setComsumerId(Integer comsumerId) {
+        this.comsumerId = comsumerId;
+    }
     public Integer getId() {
         return id;
     }
@@ -22,7 +29,6 @@ public class Note {
     public Date getDate() {
         return date;
     }
-    @JsonProperty("creat_time")
     public void setDate(Date date) {
         this.date = date;
     }
@@ -41,14 +47,6 @@ public class Note {
 
     public void setThemes(Integer themes) {
         this.themes = themes;
-    }
-
-    public Integer getComsumerId() {
-        return comsumerId;
-    }
-    @JsonProperty("consumer")
-    public void setComsumerId(Integer comsumerId) {
-        this.comsumerId = comsumerId;
     }
 
     public String getDesc() {

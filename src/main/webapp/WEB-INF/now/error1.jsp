@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-	<%@ include file="./taglib.jsp" %>
+	<%@ include file="taglib.jsp" %>
 <html>
  <head>
  <title>注册报错</title>
