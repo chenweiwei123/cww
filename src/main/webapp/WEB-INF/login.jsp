@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:set var="cww" value="${pageContext.request.contextPath }"/>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>后台登录-X-admin2.0</title>
@@ -39,12 +39,9 @@
 <script>
     function login() {
         $.post("${cww}/worker/login",$("#123").serialize(),function(res){
-            alert($("#123").serialize());
-            alert(eval('(' + res + ')'));
             if(200==res.code){
                 layer.msg('玩命登录中', function(){
-                    alert("成功");
-                    location.href("${cww}/worker/index");
+                    location.href = "${cww}/worker/index" ;
                 });
             }else{
                 layer.msg('玩命登录中', function(){

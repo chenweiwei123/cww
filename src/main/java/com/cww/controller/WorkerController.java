@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Date;
 
 import com.cww.utils.Data;
+import com.mysql.fabric.Server;
 import com.sun.xml.internal.ws.api.policy.PolicyResolver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -28,7 +29,7 @@ public class WorkerController {
      */
     @RequestMapping(value="/login")
 	@ResponseBody
-    public Data getLogin(@RequestParam("phone") Integer phone, String password){
+    public Data getLogin(@RequestParam("phone") Integer phone, String password,HttpServletRequest request){
     	Data data=new Data();
     	Worker worker = service.findWorker(phone);
     	if(worker == null ){
@@ -42,6 +43,8 @@ public class WorkerController {
     	}
     	data.setCode(200);
     	data.setDatas(worker);
+    	ServletContext server=request.getServletContext();
+    	server.setAttribute("worker",worker);
       return data;
     }
     @RequestMapping(value="/info")
@@ -55,7 +58,7 @@ public class WorkerController {
     @RequestMapping(value="/registers", method=RequestMethod.POST)
     public String  addRegister(Worker worker, ModelMap map, HttpServletRequest req){
     	int num;
-    	String path = "/cww/2/img/";
+    	String path = "/2/img/";
     	HttpSession session=req.getSession();
     	//文件类型 application/java
     	if(worker.getFile() != null) {
@@ -72,7 +75,7 @@ public class WorkerController {
     		}
     		worker.setImage(path+"."+owner);
     	}else {
-    		String defaultName="/cww/2/img/xiaoren.jpg";
+    		String defaultName="/2/img/xiaoren.jpg";
     		worker.setImage(defaultName);
     	}
 		try {

@@ -42,6 +42,10 @@
     <mvc:resources location="/WEB-INF/static/3/css/" mapping="/3/css/**"/>
     <mvc:resources location="/WEB-INF/static/3/lib/" mapping="/3/lib/**"/>
     <mvc:resources location="/WEB-INF/static/3/fonts/" mapping="/3/fonts/**"/>
+
+    <mvc:resources location="/WEB-INF/static/4/css/" mapping="/4/css/**"/>
+    <mvc:resources location="/WEB-INF/static/4/images/" mapping="/4/images/**"/>
+    <mvc:resources location="/WEB-INF/static/4/js/" mapping="/4/js/**"/>
       <!-- 上传文件 -->
     <bean  id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">    
     <property name="defaultEncoding" value="utf-8"/>    
@@ -49,5 +53,6 @@
     <property name="maxInMemorySize" value="10240"/>    
     <!-- 最大文件大小，-1为不限制大小 -->    
     <property name="maxUploadSize" value="-1"/>    
-    </bean> 
+    </bean>
+
 </beans>
