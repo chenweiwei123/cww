@@ -33,6 +33,8 @@
         <hr class="hr15">
         <input value="登录" lay-submit lay-filter="login" style="width:100%;" type="submit" onclick="login()">
         <hr class="hr20" >
+        <input value="注册" lay-submit lay-filter="login" style="width:100%;" type="button" onclick="zhuce()">
+        <hr class="hr20" >
     </form>
 </div>
 
@@ -49,6 +51,9 @@
                 });
             }
         });
+    }
+    function zhuce() {
+        location.href = "${cww}/worker/register123" ;
     }
 </script>
 

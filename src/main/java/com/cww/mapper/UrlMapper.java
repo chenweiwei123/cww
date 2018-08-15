@@ -11,4 +11,5 @@ public interface UrlMapper {
     void insertNotes(Note note);
     Note selectNoteById(Integer id);
     Theme selectTheme(Integer id);
+    Integer deleteNoteById(Integer id);
 }

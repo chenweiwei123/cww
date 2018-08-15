@@ -12,4 +12,5 @@ public interface UrlService {
     List<Note> getnotes(Integer owner);
     void insertnotes(Note note);
     Note getnotesByid(Integer id);
+    Integer deleteById(Integer id);
 }

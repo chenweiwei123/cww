@@ -17,57 +17,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <base href="<%=basePath%>">
-    <meta charset="utf-8"/>
-    <title>音乐大厅</title>
-    <meta name="keywords"  content="设置关键词..." />
-    <meta name="description" content="设置描述..." />
-    <meta name="author" content="DeathGhost" />
-    <meta name="renderer" content="webkit">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-
-    <script type="text/javascript">
-        //<![CDATA[
-        try {
-            if (!window.CloudFlare) {
-                var CloudFlare = [{
-                    verbose: 0,
-                    p: 0,
-                    byc: 0,
-                    owlid: "cf",
-                    bag2: 1,
-                    mirage2: 0,
-                    oracle: 0,
-                    paths: {
-                        cloudflare: "/cdn-cgi/nexp/dok2v=1613a3a185/"
-                    },
-                    atok: "1668c19642567e08c574f5d9458345a2",
-                    petok: "3285f1db20753df31d6fcdae6015a30e5a60a785-1419101748-1800",
-                    zone: "nyasha.me",
-                    rocket: "0",
-                    apps: {
-                        "ga_key": {
-                            "ua": "UA-50530436-1",
-                            "ga_bs": "2"
-                        }
-                    }
-                }];
-                CloudFlare.push({
-                    "apps": {
-                        "ape": "86d42e0b8c0027bb178361fce707fc15"
-                    }
-                });
-                ! function(a, b) {
-                    a = document.createElement("script"), b = document.getElementsByTagName("script")[0], a.async = !0, a.src = "${cww}/2/js/cloudflare.min.js", b.parentNode.insertBefore(a, b)
-                }()
-            }
-        } catch (e) {};
-        //]]>
-    </script>
+    <meta charset="UTF-8">
+    <title>欢迎页面-X-admin2.0</title>
+    <meta name="keywords" content="" />
     <link rel="icon" href="${cww}/1/images/icon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="${cww}/1/css/style.css" />
-    <script language="javascript" type="text/javascript" src="${cww}/1/js/My97DatePicker/WdatePicker.js"></script>
-
+    <link rel="shortcut icon" href="${cww}/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="${cww}/3/css/font.css">
+    <link rel="stylesheet" href="${cww}/3/css/xadmin.css">
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script   type="text/javascript" src="${cww}/3/lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="${cww}/3/js/xadmin.js"></script>
+    <link type="text/css" rel="Stylesheet" href="${cww}/4/css/imageflow.css" />
+    <script type="text/javascript" src="${cww}/4/js/jquery.js"></script>
+    <script type="text/javascript" src="${cww}/4/js/imageflow.js"></script>
     <script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/jquery.js"></script>
     <script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/plug-ins/customScrollbar.min.js"></script>
     <script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/plug-ins/echarts.min.js"></script>
@@ -77,211 +40,90 @@
     <script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/plug-ins/pagination.js"></script>
     <script type="text/javascript" charset="utf-8"  src="${cww}/1/javascript/public.js"></script>
 
-
-    <link rel="stylesheet" href="${cww}/2/vendor/offline/theme.css">
-    <link rel="stylesheet" href="${cww}/2/vendor/pace/theme.css">
-    <link rel="stylesheet" href="${cww}/2/vendor/jvectormap/jquery-jvectormap-1.2.2.css">
-    <link rel="stylesheet" href="${cww}/2/vendor/bxslider/jquery.bxslider.css">
-    <link rel="stylesheet" href="${cww}/2/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="${cww}/2/css/font-awesome.min.css">
-    <link rel="stylesheet" href="${cww}/2/css/animate.min.css">
-    <link rel="stylesheet" href="${cww}/2/css/panel.css">
-    <link rel="stylesheet" href="${cww}/2/css/skins/palette.1.css" id="skin">
-    <link rel="stylesheet" href="${cww}/2/css/fonts/style.1.css" id="font">
-    <link rel="stylesheet" href="${cww}/2/css/main.css">
-
-
-    <!--[if lt IE 9]>
-    <script src="${cww}/2/js/html5shiv.js"></script>
-    <script src="${cww}/2/js/respond.min.js"></script>
-    <![endif]-->
-
-    <script src="${cww}/2/vendor/modernizr.js"></script>
-
 </head>
 <body>
-<div class="main-wrap">
-    <jsp:include page="same_body.jsp"/>
-    <div class="content-wrap">
-        <header class="top-hd">
-            <div class="hd-lt">
-                <a class="icon-reorder"></a>
+<div class="x-nav">
+      <span class="layui-breadcrumb">
+        <a href="">首页</a>
+        <a href="">旅游</a>
+        <a>
+          <cite>备忘录</cite></a>
+      </span>
+</div><!--L_username-->
+<div class="x-body">
+    <form class="layui-form" method="post"  action="${cww}/url/bei" >
+        <table>
+        <div class="layui-form-item">
+            <label for ="the" class="layui-form-label">
+                <span class="x-red">*</span>备忘录标题
+            </label>
+            <div class="layui-input-inline">
+                <select name="themes" id="the">
+                    <c:forEach begin="0" items="${Stheme}" step="1" var="i">
+                        <label class="check-box">
+                            <span></span>
+                            <option  name="themes"  value="${i.id}">${i.name}</option>
+                        </label>
+                    </c:forEach>
+                </select>
             </div>
-            <div class="hd-rt">
-                <ul>
-                    <li>
-                        <a href="#" target="_blank"><i class="icon-home"></i>前台访问</a>
-                    </li>
-                    <li>
-                        <a><i class="icon-random"></i>清除缓存</a>
-                    </li>
-                    <li>
-                        <a><i class="icon-user"></i>管理员:<em>${worker.name}</em></a>
-                    </li>
-                    <li>
-                        <a><i class="icon-bell-alt"></i>系统消息</a>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0)" id="JsSignOut"><i class="icon-signout"></i>安全退出</a>
-                    </li>
-                </ul>
+        </div>
+        <div class="layui-form-item layui-form-text">
+            <label for="start" class="layui-form-label">
+                <span class="x-red">*</span>执行时间
+            </label>
+            <div class="layui-input-inline">
+                <input class="layui-input" placeholder="开始日" name="dat" id="start">
             </div>
-        </header>
-        <main class="main-cont content mCustomScrollbar">
-            <div class="page-wrap">
-                <!--开始::内容-->
-                <section class="page-hd">
-                    <header>
-                        <h2 class="title">Memorandum</h2>
-                        <p class="title-description">
-                            对自己的计划进行备忘吧～
-                        </p>
-                    </header>
-                    <hr>
-                </section>
-                <form method="post"  action="${cww}/url/bei" >
-                    <table>
-                    <div class="form-group-col-2">
-                        <div class="form-label">备忘录标题：</div>
-                        <div class="form-cont">
-                            <c:forEach begin="0" items="${themes}" step="1" var="i">
-                            <label class="check-box">
-                                <input type="checkbox"  name="themes" value="${i.id}"/>
-                                <span>${i.name}</span>
-                            </label>
-                            </c:forEach>
+        </div>
+        <div class="layui-form-item">
+            <label for="the"  class="layui-form-label">
+                <span class="x-red">*</span>级别
+            </label>
+            <div class="layui-input-inline">
+                <select name="order" id="order">
+                        <label class="check-box">
+                            <option  name="order"  value="1">一级</option>
+                            <option  name="order"  value="2">二级</option>
+                            <option  name="order"  value="3">三级</option>
+                        </label>
+                </select>
+            </div>
+        </div>
+            <div class="layui-form-item">
+                <label for="the"  class="layui-form-label">
+                    <span class="x-red">*</span>详细信息
+                </label>
+                        <div class="layui-input-block">
+                            <textarea placeholder="请输入内容" id="desc" name="desc" class="layui-textarea"></textarea>
                         </div>
-                    </div>
-                <div class="form-group-col-2">
-                    <div class="form-label">开始时间：</div>
-                    <div class="form-cont">
-                    <input type="text" name="dat" class="Wdate"  onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm'})" /></br>
-                    </div>
                 </div>
-                <div class="form-group-col-2">
-                    <div class="form-label">备忘级别：</div>
-                    <div class="form-cont">
-                        <label class="radio">
-                            <input type="radio" name="order" value="1"/>
-                            <span>一级</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="order" value="2"/>
-                            <span>二级</span>
-                        </label>
-                        <label class="radio">
-                            <input type="radio" name="order"  value="3"  checked="checked"/>
-                            <span>三级</span>
-                        </label>
-                    </div>
-                </div>
-                <div class="form-group-col-2">
-                    <div class="form-label">详细信息：</div>
-                    <div class="form-cont">
-                        <%--<textarea class="form-control form-boxed">...</textarea>--%>
-                        <div class="panel-bd">
-                            <script id="container" name="desc" type="text/plain">...</script>
-                            <script type="text/javascript">
-                                var ue = UE.getEditor('container');
-                            </script>
-                        </div>
-                    </div>
-                </div>
-                <input type="hidden" name="comsumerId"  value="${worker.id}"/>
-                <div class="form-group-col-2">
-                    <div class="form-label"></div>
-                    <div class="form-cont">
-                        <input type="submit" class="btn btn-primary" value="提交表单" />
-                        <input type="reset" class="btn btn-primary" value="重置" />
-                    </div>
-                </div>
-                    </table>
-            </form>
-                <!--开始::结束-->
-            </div>
-        </main>
-        <footer class="btm-ft">
-            <p class="clear">
-                <span class="fl">©Copyright 2016 <a href="#" title="DeathGhost" target="_blank">cww.cn</a></span>
-                <span class="fr text-info">
-					<em class="uppercase">
-						<i class="icon-user"></i>
-						author:${worker.name}
-					</em> |
-					<em class="uppercase"><i class="icon-envelope-alt"></i>
-						更多模板： <a href="http://www.mycodes.net/" target="_blank">cww.com</a>
-					</em>
-					<a onclick="reciprocate()" class="text-primary"><i class="icon-qrcode"></i>捐赠</a>
-				</span>
-            </p>
-        </footer>
-    </div>
+            <input type="hidden" name="comsumerId"  value="${worker.id}"/>
+        <div class="layui-form-item">
+            <label  class="layui-form-label">
+            </label>
+            <button  type="submit" class="layui-btn" lay-filter="add" lay-submit="">
+                增加备忘录
+            </button>
+            <button  type="reset" class="layui-btn" lay-filter="add" lay-submit="">
+                重置
+            </button>
+        </div>
+        </table>
+    </form>
 </div>
 
-<div class="mask"></div>
-<div class="dialog">
-    <div class="dialog-hd">
-        <strong class="lt-title">标题</strong>
-        <a class="rt-operate icon-remove JclosePanel" title="关闭"></a>
-    </div>
-    <div class="dialog-bd">
-        <!--start::-->
-        <p>这里是基础弹窗,可以定义文本信息，HTML信息这里是基础弹窗,可以定义文本信息，HTML信息。</p>
-        <!--end::-->
-    </div>
-    <div class="dialog-ft">
-        <button class="btn btn-info JyesBtn">确认</button>
-        <button class="btn btn-secondary JnoBtn">关闭</button>
-    </div>
 </div>
-</div>
-<script type="text/javascript">
-    $(f);
-    window.onload=function(){
+    <script>
+    layui.use('laydate', function(){
+        var laydate = layui.laydate;
 
-    }
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#start' //指定元素
+        });
 
+    });
 </script>
-
-<!--开始::结束-->
-</div>
-<footer class="btm-ft">
-    <p class="clear">
-        <span class="fl">©Copyright 2016 <a href="#" title="DeathGhost" target="_blank">com.cww.cn</a></span>
-        <span class="fr text-info">
-					<em class="uppercase">
-						<i class="icon-user"></i>
-						author:chenweiwei
-					</em> |
-					<a onclick="reciprocate()" class="text-primary"><i class="icon-qrcode"></i>赞赏</a>
-				</span>
-    </p>
-</footer>
-
-
-<!-- 2 -->
-
-<script type="text/javascript">
-    document.write("<scr"+"ipt src=\"${cww}/2/vendor/jquery-1.11.1.min.js\" language=\"JavaScript\" ></sc"+"ript>")
-</script>
-<script src="${cww}/2/vendor/jquery-1.11.1.min.js"></script>
-<script src="${cww}/2/bootstrap/js/bootstrap.js"></script>
-<script src="${cww}/2/vendor/jquery.easing.min.js"></script>
-<script src="${cww}/2/vendor/jquery.placeholder.js"></script>
-<script src="${cww}/2/vendor/fastclick.js"></script>
-<script src="${cww}/2/vendor/moment.js"></script>
-<script src="${cww}/2/vendor/skycons.js"></script>
-<script src="${cww}/2/vendor/jquery.blockUI.js"></script>
-<script src="${cww}/2/vendor/raphael.min.js"></script>
-<script src="${cww}/2/vendor/morris/morris.js"></script>
-<script src="${cww}/2/vendor/switchery/switchery.js"></script>
-<script src="${cww}/2/vendor/jquery.slimscroll.js"></script>
-<script src="${cww}/2/vendor/bxslider/jquery.bxslider.min.js"></script>
-<script src="${cww}/2/vendor/offline/offline.min.js"></script>
-<script src="${cww}/2/vendor/pace/pace.min.js"></script>
-<script src="${cww}/2/js/off-canvas.js"></script>
-<script src="${cww}/2/js/main.js"></script>
-<script src="${cww}/2/js/panel.js"></script>
-<script src="${cww}/2/js/dashboard.js"></script>
 </body>
 </html>

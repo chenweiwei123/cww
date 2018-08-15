@@ -49,4 +49,9 @@ public class UrlServiceImpl implements UrlService {
     public Note getnotesByid(Integer id) {
         return mapper.selectNoteById(id);
     }
+
+    @Override
+    public Integer deleteById(Integer id) {
+        return mapper.deleteNoteById(id);
+    }
 }

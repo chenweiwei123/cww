@@ -89,13 +89,13 @@
                     <li>
                         <a _href="${cww}/url/beiwang1">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>new Memorandum</cite>
+                            <cite>新建备忘录</cite>
                         </a>
                     </li>
                     <li>
-                        <a _href="${cww}/url/beiwang2">
+                        <a _href="${cww}/url/beiwang2?id=${worker.id}">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>Record Memorandum</cite>
+                            <cite>所有备忘录</cite>
                         </a>
                     </li>
                 </ul>

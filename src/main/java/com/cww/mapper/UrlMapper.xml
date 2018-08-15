@@ -20,12 +20,15 @@
     select id,name from theme where id =#{id}
   </select>
     <select id="selectallNotes" resultMap="nss" parameterType="int">
-        select id,order,creat_time,desc,themes from notes where consumer_id=#{owner};
+        select id,`order`,creat_time,`desc`,themes from notes where consumer_id=#{owner} order by `order`;
     </select>
   <insert id="insertNotes" parameterType="com.cww.pojo.Note">
     insert into notes(`order`,creat_time,`desc`,themes,consumer_id) values(#{order},#{date},#{desc},#{themes},#{comsumerId});
   </insert>
     <select id="selectNoteById" resultType="com.cww.pojo.Note" parameterType="int">
-      select id,order,creat_time,desc,themes from notes where id=#{id};
+      select id,`order`,creat_time,`desc`,themes from notes where id=#{id};
     </select>
+  <delete id="deleteNoteById" parameterType="int">
+    delete from notes where id=#{id}
+  </delete>
 </mapper>

@@ -88,7 +88,7 @@ public class WorkerController {
         }
 		ServletContext context = req.getServletContext();
 		context.setAttribute("worker",worker);
-		return "now/login2";
+		return "login";
     }
     /**
      * 公共页面跳转
